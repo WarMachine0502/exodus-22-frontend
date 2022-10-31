@@ -22,7 +22,7 @@ html {
             rgba(151, 77, 175, 0.75),
             rgba(19, 42, 125, 0.75), rgba(2, 12, 32, 0.75)), 
             url('/public/backgrounds/Rectangle\ 23.png');
-    background-size: 200vh;
+    background-size: 220vh;
 }
 
 .formMain {
@@ -67,11 +67,6 @@ h1{
     transform: scale(1.02);
 }
 
-.btn-padding {
-    padding: 2vh;
-    text-align: center;
-}
-
 .blank {
     color: #ffffff;
     font-size: 2.5vh;
@@ -86,10 +81,14 @@ h1{
     border-right: 0px;
 }
 
+.btn-padding {
+    padding: 5vh;
+    text-align: center;
+}
 
 .submit {
     border: 0;
-    padding: 2px 26px;
+    padding: 10px 26px;
     font-size: 2vh;
     align-items: center;
     font-family: CenSchoolBook-bold;
@@ -105,11 +104,11 @@ h1{
 }
 
 
-@media (max-width:1335px) {
+@media (max-width:1400px) {
 
     .formMain{
         border-radius: 30px;
-        width: 70%;
+        width: 54%;
     }
     .formHeading{
         font-size: 2.5vh;
@@ -122,11 +121,12 @@ h1{
     }
 
     .submit{
-        font-size: 1.5vh;
+        padding: 10px 26px;
+        font-size: 2vh;
     }
 
     html {
-        background-size: 135vh;
+        background-size: 150vh;
     }
 }
 
@@ -149,11 +149,15 @@ h1{
     }
 
     .submit{
-        font-size: 1.5vh;
+        font-size: 2vh;
+    }
+
+    .btn-padding{
+        padding-bottom: 10vh;
     }
 
     html {
-        background-size: 125vh;
+        background-size: 135vh;
     }
     
     
@@ -162,6 +166,10 @@ h1{
 @media (max-width:1100px) {
     .formMain{
         width: 50%;
+    }
+
+    html {
+        background-size: 120vh;
     }
 }
 
@@ -173,7 +181,7 @@ h1{
 
 @media (max-width:750px) {
     html {
-        background-size: 75vh;
+        background-size: 80vh;
     }
 
     .formMain {
@@ -182,6 +190,10 @@ h1{
 }
 
 @media (max-width:610px) {
+
+    html {
+        background-size: 65vh;
+    }
 
     .formMain {
         width: 80%;
@@ -209,12 +221,12 @@ h1{
     }
 
     .text{
-        font-size: 2vh;
+        font-size: 2.25vh;
         text-align: left;
     }
 
     .submit{
-        font-size: 1.2vh;
+        font-size: 1.5vh;
     }
 
     .formMain {
